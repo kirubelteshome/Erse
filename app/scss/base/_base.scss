@@ -1,0 +1,13 @@
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-body);
+  color: var(--clr-bg-light);
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

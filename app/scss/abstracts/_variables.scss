@@ -1,0 +1,124 @@
+//
+// Text Color Variables
+//
+:root {
+  // Primary color
+
+  --clr-primary-500: ;
+  --clr-primary-600: ;
+  --clr-primary-700: ;
+  --clr-primary-400: ;
+  --clr-primary-800: ;
+  --clr-primary-900: ;
+
+  // Neutral
+
+  --clr-neutral-white: hsl(0, 0%, 100%);
+  --clr-neutral-black: hsl(0, 0%, 0%);
+
+  // for Light Background
+
+  --clr-bg-light: #ffffff;
+  --clr-bg-light2: #f8f8f8;
+
+  --clr-txt-primary-light: #181818;
+  --clr-txt-secondary-light: #5c5c5c;
+  --clr-txt-teritary-light: #747474;
+
+  --clr-dividers-light: #ededed;
+  --clr-icons-light: #7c7b7b;
+
+  // for Dark Background
+
+  --clr-txt-primary-dark: #d9d9d9;
+  --clr-txt-secondary-dark: #9d9d9d;
+  --clr-txt-teritary-dark: #5c5c5c;
+
+  --clr-dividers-dark: #323232;
+  --clr-icons-dark: #6c6c6c;
+
+  --clr-bg-dark: #282828;
+  --clr-bg-dark2: #1c1c1c;
+
+  // System Colors Light
+
+  // Successful Colors
+  --clr-success-primary-light: #3ac922;
+  --clr-success-secondary-light: #b2ffa6;
+  --clr-success-teritary-light: #e6ffe2;
+  --clr-success-hover-light: #28b411;
+
+  // Attention
+  --clr-attention-primary-light: #f6d523;
+  --clr-attention-secondary-light: #ffef98;
+  --clr-attention-teritary-light: #fffae1;
+  --clr-attention-hover-light: #f6d523;
+
+  // Error
+  --clr-error-primary-light: #ff3030;
+  --clr-error-secondary-light: #ffc0c0;
+  --clr-error-teritary-light: #fff2f2;
+  --clr-error-hover-light: #ed2121;
+
+  // System Colors Darkdark
+
+  // Successful Colors
+  --clr-success-primary-dark: #4da63e;
+  --clr-success-secondary-dark: #b0f9a5;
+  --clr-success-teritary-dark: #c2f5b9;
+  --clr-success-hover-dark: #369926;
+
+  // Attention
+  --clr-attention-primary-dark: #f9de51;
+  --clr-attention-secondary-dark: #efe29b;
+  --clr-attention-teritary-dark: #f9f1c7;
+  --clr-attention-hover-dark: #efd02c;
+
+  // Error
+  --clr-error-primary-dark: #ff4545;
+  --clr-error-secondary-dark: #f7b7b7;
+  --clr-error-teritary-dark: #fbdfdf;
+  --clr-error-hover-dark: #ed2f2f;
+}
+
+// Typography variable
+
+:root {
+  // Font Family
+  --ff-primary: "Inter", sans-serif;
+  --ff-secondary: "Playfair Display", serif;
+
+  // Display
+  --fs-d-1: 80px;
+  --fs-d-2: 64px;
+
+  // Font Size
+  --fs-h-1: ;
+  --fs-h-2: ;
+  --fs-h-3: ;
+  --fs-sb-1: ;
+  --fs-sb-2: ;
+
+  // Paragraph
+  --fs-p-l: 18px;
+  --fs-p-m: 16px;
+  --fs-p-s: 15px;
+  --fs-p-xs: 14px;
+  --fs-p-xxs: 12px;
+
+  // Font weight
+  --fw-extralight: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+}
+:root {
+  // others
+  --fs-body: var(--fs-p-m);
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--);
+}
