@@ -1,0 +1,129 @@
+.header {
+  width: 100%;
+  background-color: var(--clr-bg-light);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: top 0.5s; /* Transition effect when sliding down (and up) */
+  z-index: var(--z-fixed-100);
+}
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//
+// Icon Colors
+//
+.nav__close,
+.nav__toggle {
+  font-size: 36px;
+  color: var(--clr-icons-dark);
+  cursor: pointer;
+}
+
+//
+// nav logo size
+//
+.nav__logo-img {
+  display: inline-block;
+  height: 36px;
+  cursor: pointer;
+}
+//
+// nav close
+//
+.nav__close {
+  position: absolute;
+  top: 4px;
+  right: 1rem;
+}
+//
+// Mobile Menu
+//
+@media screen and (max-width: 991px) {
+  .nav__menu {
+    position: fixed;
+    background-color: var(--clr-bg-light);
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+  }
+}
+//
+// menu list style opened in mobile view
+//
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 36px;
+  padding-top: 9rem;
+}
+//
+// link styles on mobile view
+//
+.nav__link {
+  color: var(--clr-txt-secondary-light);
+  font-size: var(--nav-link);
+  text-transform: uppercase;
+  font-weight: var(--fw-semi-bold);
+  transition: 0.3s;
+  &:hover {
+    color: var(--clr-txt-primary-light);
+  }
+}
+
+//
+// Show Menu
+//
+.show-menu {
+  top: 0;
+}
+//
+// Active Link
+//
+.active-link {
+  color: var(--clr-txt-primary-light);
+}
+
+//
+// Menu for desktop
+//
+@media screen and (min-width: 992px) {
+  // hide icons for desktop view
+  .nav__close,
+  .nav__toggle {
+    display: none;
+  }
+  // menu list to row
+  .nav__list {
+    padding-top: 0;
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+  .nav__link {
+    display: block;
+    position: relative;
+    text-transform: initial;
+  }
+  .active-link::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: -8px;
+
+    /* center - (optional) use with adjusting width   */
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+    background: #7f141b;
+  }
+}
