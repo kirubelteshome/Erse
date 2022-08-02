@@ -129,5 +129,10 @@
   // others
   --fs-body: var(--fs-p-m);
   --ff-body: var(--ff-primary);
-  --ff-heading: var(--);
+  --ff-heading: var(--ff-secondary);
+
+  --nav-link: var(--fs-p-s);
+
+  --z-fixed-100: 100;
+  --header-height: 64px;
 }
