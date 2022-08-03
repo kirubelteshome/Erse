@@ -1,0 +1,16 @@
+.button {
+    display: inline-flex;
+    font-weight: var(--fw-medium);
+    color: var(--clr-txt-primary-dark);
+    transition: 0.3s;
+    border-radius: 4px;
+    padding: 14px 32px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+  }
+.button-cta-rounded{
+    border-radius: 100vmax;
+    background-color: #7f141b;
+}.button-cta-rounded:hover{
+    background-color: hsl(356, 73%, 19%);
+}
