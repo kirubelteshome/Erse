@@ -1,0 +1,22 @@
+.brand__container {
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem, 2rem;
+}
+.brand__img {
+  width: 150px;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+.brand__img:hover {
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .brand__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .brand__img {
+    width: 180px;
+  }
+}
