@@ -1,0 +1,58 @@
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: '';
+}
+.swiper-button-next,
+.swiper-button-prev{
+    top: initial;
+    bottom: 0;
+    width: initial;
+    height: initial;
+    background-color: var(--clr-neutral-white);
+    border-radius: 100vmax;
+    border: 2px solid var(--clr-txt-secondary-light);
+    padding: 6px;
+    font-size: 1.5rem;
+    color: var(--clr-txt-primary-light);
+}
+.swiper-button-prev{
+    left: calc(50% - 3rem);
+}
+.swiper-button-next{
+    right: calc(50% - 3rem);
+}
+.product__card{
+    width: 320px;
+}
+.product__img{
+    padding-bottom: 16px;
+}
+.product__description{
+
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.03em;
+
+color: var(--clr-txt-primary-light);
+padding-bottom: 16px;
+
+}
+.product__price{
+    
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 120%;
+/* or 26px */
+
+letter-spacing: 0.03em;
+
+color: var(--clr-txt-secondary-light);
+
+padding-bottom: 16px;
+
+}

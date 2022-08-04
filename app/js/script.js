@@ -64,3 +64,36 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+// 
+// Swiper Js
+// 
+var swiperProduct = new Swiper(".product__container", {
+  spaceBetween: 32,
+  grabCursor: true,
+  centeredSlides: 'auto',
+  loop: true,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    470: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});
