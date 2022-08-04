@@ -71,7 +71,7 @@ window.onscroll = function() {
 var swiperProduct = new Swiper(".product__container", {
   spaceBetween: 32,
   grabCursor: true,
-  centeredSlides: 'auto',
+  centeredSlide: 'true',
   loop: true,
 
   navigation: {
