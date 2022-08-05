@@ -1,10 +1,11 @@
-//
+//#262322
+// #f2e5d7
 // Text Color Variables
 //
 :root {
   // Primary color
 
-  --clr-primary-500: ;
+  --clr-primary-500: #f2e5d7;
   --clr-primary-600: ;
   --clr-primary-700: ;
   --clr-primary-400: ;
@@ -134,6 +135,8 @@
   --ff-heading: var(--ff-secondary);
 
   --nav-link: var(--fs-p-s);
+
+  --clr-bg-body: var(--clr-primary-500);
 
   --z-fixed-100: 100;
   --header-height: 64px;
