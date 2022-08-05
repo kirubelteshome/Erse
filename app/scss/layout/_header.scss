@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background-color: var(--clr-bg-light);
+  background-color: var(--clr-primary-500);
   position: fixed;
   top: 0;
   left: 0;
@@ -44,10 +44,10 @@
 //
 // Mobile Menu
 //
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.8px) {
   .nav__menu {
     position: fixed;
-    background-color: var(--clr-bg-light);
+    background-color: var(--clr-primary-500);
     top: -100%;
     right: 0;
     width: 100%;
